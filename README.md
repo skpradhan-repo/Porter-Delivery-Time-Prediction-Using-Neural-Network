@@ -101,6 +101,27 @@ Each row represents a unique delivery. Key features include:
 
 ---
 
+## 📁 Repository Structure
+Porter-Delivery-Time-Prediction-Using-Neural-Network/
+│
+├── data/
+│   └── data_2.csv              (or rename to porter_delivery_data.csv)
+│
+├── notebooks/
+│   └── Porter_Neural_Network.ipynb     # Main + only notebook (EDA → modeling → evaluation)
+│
+├── models/
+│   └── porter_delivery_time_model.h5
+│
+├── reports/
+│   └── figures/                # Save your important plots here
+│       ├── loss_curve.png
+│       ├── delivery_time_vs_hour.png
+│       └── boxplot.png
+│
+└── README.md
+
+---
 ## ⚙️ Requirements
 
 ```bash
